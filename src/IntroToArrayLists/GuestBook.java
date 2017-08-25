@@ -45,7 +45,7 @@ public class GuestBook implements ActionListener, MouseListener {
 		button1.addActionListener(this);
 		frame.setVisible(true);
 		frame.setSize(300, 300);
-		frame.setDefaultCloseOperation(0);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		button.setText("Add Name");
 		button1.setText("View Names");
 		frame.pack();
